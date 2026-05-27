@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>NeonCode — разработка сайтов и приложений</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+<header class="header">
+    <div class="container">
+        <div class="logo">NeonCode</div>
+        <nav class="nav">
+            <a href="#home">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#portfolio">Портфолио</a>
+            <a href="#about">О компании</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+        <div class="burger">☰</div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <h1>Разработка современных веб-решений</h1>
+        <p>Сайты, приложения и цифровые продукты для бизнеса</p>
+        <a href="#contact" class="btn">Оставить заявку</a>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <h2>Услуги</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Сайты-визитки</h3>
+                <p>Простые и эффективные сайты для представления бизнеса</p>
+            </div>
+            <div class="card">
+                <h3>Корпоративные сайты</h3>
+                <p>Решения для компаний с расширенным функционалом</p>
+            </div>
+            <div class="card">
+                <h3>Интернет-магазины</h3>
+                <p>Продажа товаров онлайн с удобной системой управления</p>
+            </div>
+            <div class="card">
+                <h3>UI/UX дизайн</h3>
+                <p>Современные и удобные интерфейсы</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+
+  <div class="container">
+    <h2>Портфолио</h2>
+
+    <div class="portfolio-grid">
+
+      <div class="portfolio-card">
+        <h3>Drive Service</h3>
+        <p>Сайт автосервиса с онлайн-записью и каталогом услуг.</p>
+         <img src="imgs/port1.png" class="portfolio-card-img"></img>
+      </div>
+
+      <div class="portfolio-card">
+        <h3>TechSolutions</h3>
+        <p>Корпоративный сайт IT-компании с современным интерфейсом.</p>
+        <img src="imgs/port2.png" class="portfolio-card-img"></img>
+      </div>
+
+      <div class="portfolio-card">
+        <h3>Energy Fit</h3>
+        <p>Лендинг фитнес-клуба с формой записи и тарифами.</p>
+        <img src="imgs/port3.png" class="portfolio-card-img"></img>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-inner">
+        <h2>О компании</h2>
+
+    <p class="about-text">
+      NeonCode — современная IT-компания из города Ессентуки,
+      специализирующаяся на разработке веб-сайтов, пользовательских
+      интерфейсов и цифровых решений для бизнеса. Основной целью компании
+      является создание качественных и удобных продуктов, которые помогают
+      организациям развивать своё присутствие в интернете и автоматизировать
+      рабочие процессы.
+    </p>
+
+    <p class="about-text">
+      Компания предоставляет услуги по разработке сайтов-визиток,
+      корпоративных сайтов, лендингов и интерактивных веб-приложений.
+      В процессе работы используются современные подходы к UI/UX-дизайну,
+      адаптивной верстке и клиентской разработке. Особое внимание уделяется
+      скорости работы сайта, удобству навигации и корректному отображению
+      на мобильных устройствах.
+    </p>
+
+    <p class="about-text">
+      Специалисты NeonCode ориентируются на индивидуальный подход к каждому
+      клиенту. Перед началом разработки проводится анализ требований,
+      проектирование структуры сайта и подбор оптимальных решений под задачи
+      бизнеса. Благодаря этому создаются современные веб-ресурсы,
+      соответствующие требованиям пользователей и актуальным тенденциям
+      веб-разработки.
+    </p>
+
+    <p class="about-text">
+      Компания активно развивается в сфере цифровых технологий и стремится
+      предоставлять доступные и эффективные IT-решения для малого и среднего
+      бизнеса как в Ессентуках, так и в других регионах России.
+    </p>
+
+    <div class="stats">
+
+      <div class="stat">
+        <h3>30+</h3>
+        <p>успешных проектов</p>
+      </div>
+
+      <div class="stat">
+        <h3>5+</h3>
+        <p>лет опыта</p>
+      </div>
+
+      <div class="stat">
+        <h3>100%</h3>
+        <p>довольных клиентов</p>
+      </div>
+    </div>
+    
+
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+    <div class="container">
+        <h2>Контакты</h2>
+       <form id="contactForm">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Сообщение" required></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+
+        <div class="footer-info">
+            <div class="logo">NeonCode</div>
+            <p>Разработка сайтов и приложений для бизнеса</p>
+        </div>
+
+        <div class="footer-contacts">
+            <p>📍 г. Ессентуки, ул. Интернациональная, 15</p>
+            <p>📞 +7 (928) 456-78-90</p>
+            <p>✉ info@neoncode.ru</p>
+        </div>
+
+        <div class="footer-socials">
+            <a href="#" class="social tg" target="_blank">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="#" class="social vk" target="_blank">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#" class="social max" target="_blank">
+                MAX
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 NeonCode. Все права защищены.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
